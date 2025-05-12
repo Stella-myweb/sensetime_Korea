@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stella Jung - Sales Professional | SenseTime Application</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+            line-height: 1.6;
+        }
+        .sensetime-gradient {
+            background: linear-gradient(90deg, #FF3A2F 0%, #FFC32F 100%);
+        }
+        .sensetime-text-gradient {
+            background: linear-gradient(90deg, #FF3A2F 0%, #FFC32F 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        .section-title {
+            position: relative;
+            padding-bottom: 10px;
+        }
+        .section-title:after {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            height: 3px;
+            width: 70px;
+            background: linear-gradient(90deg, #FF3A2F 0%, #FFC32F 100%);
+        }
+        .timeline-item {
+            position: relative;
+            padding-left: 30px;
+            margin-bottom: 20px;
+        }
+        .timeline-item:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 5px;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: linear-gradient(90deg, #FF3A2F 0%, #FFC32F 100%);
+        }
+        .timeline-item:after {
+            content: "";
+            position: absolute;
+            left: 5px;
+            top: 17px;
+            bottom: -20px;
+            width: 2px;
+            background: #e0e0e0;
+        }
+        .timeline-item:last-child:after {
+            display: none;
+        }
+        @media print {
+            .page-break {
+                page-break-before: always;
+            }
+        }
+    </style>
+</head>
+<body class="bg-white">
+    <!-- Header -->
+    <header class="w-full py-6 bg-white shadow-sm print:shadow-none">
+        <div class="max-w-5xl mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center justify-between">
+                <div class="w-full md:w-auto mb-4 md:mb-0 flex items-center">
+                    <div class="w-16 h-16 mr-4 sensetime-gradient rounded-full flex items-center justify-center">
+                        <div class="w-14 h-14 bg-white rounded-full flex items-center justify-center">
+                            <span class="text-2xl font-bold sensetime-text-gradient">SJ</span>
+                        </div>
+                    </div>
+                    <div>
+                        <h1 class="text-3xl font-bold text-gray-800">Stella Jung</h1>
+                        <p class="text-lg text-gray-600">Sales Professional</p>
+                    </div>
+                </div>
+                <div class="w-full md:w-auto">
+                    <div class="flex flex-col md:flex-row md:items-center">
+                        <a href="mailto:stella.cholong.jung@gmail.com" class="mb-2 md:mb-0 md:mr-4 text-gray-600 hover:text-gray-800 flex items-center">
+                            <i class="fas fa-envelope mr-2 text-gray-500"></i>
+                            stella.cholong.jung@gmail.com
+                        </a>
+                        <a href="https://www.linkedin.com/in/stellacholongjung/" target="_blank" class="text-gray-600 hover:text-gray-800 flex items-center">
+                            <i class="fab fa-linkedin mr-2 text-gray-500"></i>
+                            LinkedIn Profile
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-5xl mx-auto px-4 py-8">
+        <nav class="mb-12 pb-4 border-b border-gray-200">
+            <ul class="flex flex-wrap">
+                <li class="mr-6 mb-2"><a href="#profile" class="text-gray-600 hover:sensetime-text-gradient">Profile</a></li>
+                <li class="mr-6 mb-2"><a href="#experience" class="text-gray-600 hover:sensetime-text-gradient">Experience</a></li>
+                <li class="mr-6 mb-2"><a href="#education" class="text-gray-600 hover:sensetime-text-gradient">Education</a></li>
+                <li class="mr-6 mb-2"><a href="#skills" class="text-gray-600 hover:sensetime-text-gradient">Skills</a></li>
+                <li class="mr-6 mb-2"><a href="#cover-letter" class="text-gray-600 hover:sensetime-text-gradient">Cover Letter</a></li>
+            </ul>
+        </nav>
+
+        <!-- Profile Section -->
+        <section id="profile" class="mb-12">
+            <h2 class="text-2xl font-bold section-title mb-6">Profile</h2>
+            <div class="bg-gray-50 p-6 rounded-lg shadow-sm">
+                <p class="text-gray-700">
+                    (Korean/English) Sales Professional with 10+ years in enterprise technology and AI-driven business development. Proven track record of 20% conversion rates and strategic relationship building across APAC. Currently enhancing AI technical proficiency through intensive training in deep learning, LLMs, and generative AI applications.
+                </p>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="mb-12">
+            <h2 class="text-2xl font-bold section-title mb-6">Experience</h2>
+            
+            <div class="timeline-item">
+                <div class="mb-2">
+                    <h3 class="text-xl font-semibold">Senior Business Development Representative - Korea</h3>
+                    <p class="text-gray-600 italic">Brightcove | July 2022 – Present (2 yrs 8 mons)</p>
+                </div>
+                <ul class="list-disc ml-4 text-gray-700">
+                    <li>Achieved industry-leading 20% conversion rate from inbound leads to new business contracts in 2024, setting record-high performance globally</li>
+                    <li>Earned Global Top BDR recognition for 2023 and 2024 through exceptional customer relationship management and strategic account planning</li>
+                    <li>Collaborated with Sales Engineering team to devise and execute account strategies for mid-market and enterprise clients, emphasizing long-term value creation</li>
+                    <li>Drove the complete sales cycle from prospecting to qualified opportunity, partnering with account executives to ensure smooth transition to deal closure</li>
+                    <li>Conducted in-depth research with AE/CSM to understand customer priorities and technical requirements, applying these insights to optimize client onboarding</li>
+                    <li>Presented quarterly business reviews highlighting data-driven opportunities</li>
+                </ul>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="mb-2">
+                    <h3 class="text-xl font-semibold">Sales Development Representative/ Business Development Executive - APAC</h3>
+                    <p class="text-gray-600 italic">IDG (International Data Group) | March 2018 - July 2022 (4 yrs 5 mons)</p>
+                </div>
+                <ul class="list-disc ml-4 text-gray-700">
+                    <li>Built strategic enterprise relationships across APAC region</li>
+                    <li>Led strategic cybersecurity project targeting Korean government agencies, developing relationships with security and data management decision makers</li>
+                    <li>Used excellent written and verbal communication in English, Korean, and Japanese for client engagement</li>
+                </ul>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="mb-2">
+                    <h3 class="text-xl font-semibold">Business Development Representative (Remote - Contracted by IDG) – Korea</h3>
+                    <p class="text-gray-600 italic">Forcepoint | September 2020 - March 2021 (8 mons)</p>
+                </div>
+                <ul class="list-disc ml-4 text-gray-700">
+                    <li>Expanded business throughout APAC with regional directors</li>
+                    <li>Developed opportunities for cybersecurity solutions in enterprise accounts</li>
+                </ul>
+                <p class="text-gray-500 italic text-sm mt-2">Note: Forcepoint role was performed under contract with IDG during the same employment period</p>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="mb-2">
+                    <h3 class="text-xl font-semibold">Sales Operations Executive - Korea</h3>
+                    <p class="text-gray-600 italic">USCO ITR | July 2013 - November 2017</p>
+                </div>
+                <ul class="list-disc ml-4 text-gray-700">
+                    <li>Built deep relationships with clients across North America, Italy and India, demonstrating successful work in multiple countries and cultures</li>
+                    <li>Accessed, analyzed, and synthesized financial data to develop accurate business forecasting</li>
+                    <li>Managed invoice generation, tracking, and collection processes with a strong analytical foundation</li>
+                    <li>Streamlined invoice processes and international payment reconciliation</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="mb-12">
+            <h2 class="text-2xl font-bold section-title mb-6">Education</h2>
+            
+            <div class="mb-6">
+                <h3 class="text-xl font-semibold">AI Language Master Program</h3>
+                <p class="text-gray-600 italic">ICT Innovation Square - Information Technology, Programming (March 2025 – 3 months)</p>
+                <ul class="list-disc ml-4 text-gray-700 mt-2">
+                    <li>Intensive evening program (160 hours, 7PM-11PM weekdays) operated by National IT Industry Promotion Agency</li>
+                    <li>Focus areas: Python programming, regression analysis, TensorFlow, Keras deep learning frameworks, and data visualization</li>
+                    <li>Project work includes building LLM applications, RAG systems, and implementing OpenAI API for business solutions</li>
+                    <li>Activities: Participating in hands-on AI projects, collaborative data analysis workshops, and technical presentations</li>
+                    <li>Developing technical competency to better understand enterprise AI challenges and articulate business value of AI solutions</li>
+                </ul>
+            </div>
+            
+            <div class="mb-6">
+                <h3 class="text-xl font-semibold">Smart Factory IT Programming Bootcamp</h3>
+                <p class="text-gray-600 italic">Information Technology, Programming (2021 – 3 months)</p>
+            </div>
+            
+            <div class="mb-6">
+                <h3 class="text-xl font-semibold">Cheongju University</h3>
+                <p class="text-gray-600 italic">Bachelor's Degree (2007-2012)</p>
+                <ul class="list-disc ml-4 text-gray-700 mt-2">
+                    <li>Tourism Management</li>
+                    <li>Japanese Language and Literature (Dual Major)</li>
+                </ul>
+            </div>
+            
+            <div class="mb-6">
+                <h3 class="text-xl font-semibold">Licenses & Certifications</h3>
+                <p class="text-gray-700 mt-2">ChatGPT and AI 100% Business Implementation (2024 – 15 hours)</p>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="mb-12">
+            <h2 class="text-2xl font-bold section-title mb-6">Skills</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div class="bg-gray-50 p-4 rounded-lg">
+                    <h3 class="font-semibold mb-2 sensetime-text-gradient">Sales Expertise</h3>
+                    <ul class="text-gray-700">
+                        <li>Strategic Account Planning</li>
+                        <li>Pipeline Development</li>
+                        <li>Value-Based Selling</li>
+                        <li>Pre-Sales Support</li>
+                    </ul>
+                </div>
+                
+                <div class="bg-gray-50 p-4 rounded-lg">
+                    <h3 class="font-semibold mb-2 sensetime-text-gradient">Technical Understanding</h3>
+                    <ul class="text-gray-700">
+                        <li>SaaS & Cloud Solutions</li>
+                        <li>AI Models</li>
+                        <li>Data Management</li>
+                        <li>Deep Learning</li>
+                    </ul>
+                </div>
+                
+                <div class="bg-gray-50 p-4 rounded-lg">
+                    <h3 class="font-semibold mb-2 sensetime-text-gradient">Communication</h3>
+                    <ul class="text-gray-700">
+                        <li>Multi-lingual Client Engagement</li>
+                        <li>Executive Presentations</li>
+                        <li>Solution Storytelling</li>
+                    </ul>
+                </div>
+                
+                <div class="bg-gray-50 p-4 rounded-lg md:col-span-3">
+                    <h3 class="font-semibold mb-2 sensetime-text-gradient">Industry Knowledge</h3>
+                    <ul class="text-gray-700 flex flex-wrap">
+                        <li class="mr-6">B2B Enterprise Software</li>
+                        <li class="mr-6">AI Applications</li>
+                        <li>Manufacturing Industry Experience</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cover Letter Section -->
+        <section id="cover-letter" class="mb-12">
+            <h2 class="text-2xl font-bold section-title mb-6">Cover Letter</h2>
+            
+            <div class="bg-white border border-gray-200 rounded-lg p-6 shadow-sm">
+                <p class="mb-4 font-semibold">Dear Hiring Manager,</p>
+                
+                <p class="mb-4 text-gray-800">
+                    I am applying for the Sales Manager position at SenseTime Korea with enthusiasm. As a sales professional with 10+ years in enterprise technology and current AI education, I believe I can contribute significantly to SenseTime's growth in Korea.
+                </p>
+                
+                <p class="mb-4 text-gray-800">
+                    I'm particularly impressed by the SenseNova multimodal AI model series and its market success.
+                </p>
+                
+                <p class="mb-2 text-gray-800">
+                    At Brightcove, I've demonstrated excellence by:
+                </p>
+                <ul class="list-disc ml-8 mb-4 text-gray-800">
+                    <li>Achieving 20% conversion rates and recognition as Global Top BDR (2023-2024)</li>
+                    <li>Collaborating with technical teams on enterprise account strategies</li>
+                    <li>Managing complete sales cycles from prospecting to qualified opportunities</li>
+                </ul>
+                
+                <p class="mb-4 text-gray-800">
+                    My experience at IDG across APAC has provided valuable insights into regional business practices and cross-cultural communication. I've successfully led projects targeting Korean government agencies and built relationships with security and data decision-makers—directly applicable to SenseTime's diverse portfolio.
+                </p>
+                
+                <p class="mb-4 text-gray-800">
+                    Currently, I'm enhancing my technical expertise through the AI Language Master Program, developing hands-on skills in Python, deep learning frameworks, LLMs, and RAG systems. This technical foundation enables me to better bridge business needs with AI solutions.
+                </p>
+                
+                <p class="mb-4 text-gray-800">
+                    The opportunity to join SenseTime—with its "AI Infrastructure – Large Models – Applications" integrated strategy—excites me as it aligns with my belief in delivering tangible business value through end-to-end solutions.
+                </p>
+                
+                <p class="mb-4 text-gray-800">
+                    My combination of sales achievement, enterprise technology experience, and AI technical training makes me uniquely qualified to help expand SenseTime's presence in Korea. I look forward to discussing how I can contribute to your continued success.
+                </p>
+                
+                <p class="mb-1 text-gray-800">Sincerely,</p>
+                <p class="text-gray-800 font-semibold">Stella Jung</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="sensetime-gradient py-4 text-white text-center">
+        <div class="max-w-5xl mx-auto px-4">
+            <p>© 2024 Stella Jung. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
